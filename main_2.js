@@ -25,7 +25,7 @@ d3.csv("./assets/tenkanen.csv")
         .attr("height", (d) => { return d.length / 8 } )
         .style("fill", (d) => { 
           if(d.protocol==="DNS") {
-            return "FF9800"
+            return "#FF9800"
           }
           else if (d.protocol==="TCP") {
             return "#9E9E9E"
