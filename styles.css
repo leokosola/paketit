@@ -1,0 +1,32 @@
+h1 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hello {
+  transition: all .5s;
+}
+
+div.bar {
+  display: inline-block;
+  width: 20px;
+  height: 75px;   /* We'll override this later */
+  background-color: teal;
+  margin-right: 2px;
+}
+
+#chart-container {
+  position: sticky;
+  top: 10px;
+  z-index: 10;
+}
+
+article {
+  z-index: 20;
+  margin-top: 100vh;
+  background-color: #f5f5dce6;
+  position: relative;
+}
